@@ -1,0 +1,2 @@
+// this allows you to see the # of real time connections to port 80
+netstat -an | grep 80 | grep ESTA | wc -l
